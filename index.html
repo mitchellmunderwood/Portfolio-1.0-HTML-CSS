@@ -5,38 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   
     <style>
-        nav {
-            padding-left: 20px;
-            padding-right: 20px;
+        @media only screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column
+            }
+            
         }
 
-        .navbar_content a {
-            color: white;
-        }
-
-        .navbar-link:hover  {
-            color: #c5c5c5;
-            text-decoration: none;
-        }
-
-        .navbar-link {
-            padding-left: 5px;
-            padding-right: 5px;
-        }
+        
 
     </style>
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar" style="background: #2c549c;">
-        <div class="navbar_content">
-            <a href="#" class="navbar-brand">Mitchell Underwood</a>
-            <a href="#" class="navbar-link">About</a>
-            <a href="#" class="navbar-link">Portfolio</a>
-            <a href="#" class="navbar-link">Contact</a>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mitchell Underwood</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>         
         </div>
-    </nav>
+      </nav>
     <!-- main -->
         <!-- content -->
     <!-- footer -->
