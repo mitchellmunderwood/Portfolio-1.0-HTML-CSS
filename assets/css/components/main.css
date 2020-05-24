@@ -16,3 +16,10 @@ main {
     /* background: red; */
     padding: 30px;
 }
+
+@media only screen and (max-width: 680px) {
+
+    main {
+        top: 88px;
+    }
+}
