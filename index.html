@@ -21,11 +21,52 @@
         form {
             max-width: 500px;
             min-height: 500px;
-            background: #f1f1f1;
-            border-radius: 5px;
+            background: #e1e1e1;
+            border-radius: 5px; 
             box-shadow: grey 1px 1px;
             padding: 20px;
         }
+        form h1 {
+            margin-bottom: 30px;
+        }
+
+        form h6 {
+           margin: 0px;
+           padding: 4px 0px;
+
+           
+        }
+
+        form button {
+            margin-top: 10px;
+            width: 200px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            border-radius: 10px;
+
+        }
+
+        form button:hover {
+            color: white;
+            background: grey;
+        }
+
+        .container {
+            height: 500px;
+            position: relative;
+            
+        }
+
+        .row {
+            margin-top: 5px;
+            
+        }
+
+        form input {
+            width: 100%;
+        }
+       
 
     </style>
 </head>
@@ -46,33 +87,29 @@
             <div class="container">
                 <h1>Contact</h1>
                 <div class="row">
-                    <div class="col md-3">
-                        <label for="">
-                            Name
-                        </label>
-                        <br>
+                    <div class="col-3">
+                        <h6>Name :</h6>
+                    </div>
+                    <div class="col-9">
                         <input type="text">
                     </div>
-                   
-                </div>
-                <div class="row">
-                    <div class="col md-3">
-                        <label for="">
-                            Email
-                        </label>
-                        <br>
+                </div><div class="row">
+                    <div class="col-3">
+                        <h6>Email :</h6>
+                    </div>
+                    <div class="col-9">
                         <input type="text">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col md-3">
-                        <label for="">
-                            Message
-                        </label>
-                        <br>
+                    <div class="col-3">
+                        <h6>Message :</h6>
+                    </div>
+                    <div class="col-9">
                         <input type="text">
                     </div>
                 </div>
+               
                 <button>Submit</button>
             </div>
         </form>
