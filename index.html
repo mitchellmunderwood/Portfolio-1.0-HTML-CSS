@@ -9,7 +9,24 @@
     <link rel="stylesheet" href="./assets/css/components/footer.css">
     <link rel="stylesheet" href="./assets/css/components/main.css">
     <style>
-    
+        main {
+            position: absolute;
+            top: 56px;
+            width: 100%;
+            height: calc(100% - 56px);
+            /* background: red; */
+            padding: 30px;
+        }
+
+        form {
+            max-width: 500px;
+            min-height: 500px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: grey 1px 1px;
+            padding: 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -21,10 +38,44 @@
             <a class="nav-item nav-link" href="#">Portfolio</a>
             <a class="nav-item nav-link" href="#">Contact</a>         
         </div>
-      </nav>
+    </nav>
+
     <!-- main -->
     <main>
-
+        <form>
+            <div class="container">
+                <h1>Contact</h1>
+                <div class="row">
+                    <div class="col md-3">
+                        <label for="">
+                            Name
+                        </label>
+                        <br>
+                        <input type="text">
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col md-3">
+                        <label for="">
+                            Email
+                        </label>
+                        <br>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col md-3">
+                        <label for="">
+                            Message
+                        </label>
+                        <br>
+                        <input type="text">
+                    </div>
+                </div>
+                <button>Submit</button>
+            </div>
+        </form>
     </main>
     
     <!-- footer -->
