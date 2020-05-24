@@ -5,8 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/components/navbar.css">
+    <link rel="stylesheet" href="./assets/css/components/footer.css">
+    <link rel="stylesheet" href="./assets/css/components/main.css">
+    <style>
+        main {
+            position: absolute;
+            top: 56px;
+            width: 100%;
+            height: calc(100% - 56px);
+            /* background: red; */
+            padding: 30px;
+        }
+
+        form {
+            max-width: 500px;
+            min-height: 500px;
+            background: #e1e1e1;
+            border-radius: 5px; 
+            box-shadow: grey 1px 1px;
+            padding: 20px;
+        }
+        form h1 {
+            margin-bottom: 30px;
+        }
+
+        form h6 {
+           margin: 0px;
+           padding: 4px 0px;
+
+           
+        }
+
+        form button {
+            margin-top: 10px;
+            width: 200px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            border-radius: 5px;
+
+        }
+
+        form button:hover {
+            color: white;
+            background: grey;
+        }
+
+        .container {
+            height: 500px;
+            position: relative;
+            
+        }
+
+        .row {
+            margin-top: 5px;
+            
+        }
+
+        form input {
+            width: 100%;
+            border-radius: 5px;
+        }
+       
+
+    </style>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand">
+        <a class="navbar-brand" href="#">Mitchell Underwood</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">Contact</a>         
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+        <form>
+            <div class="container">
+                <h1>Contact</h1>
+                <div class="row">
+                    <div class="col-3">
+                        <h6>Name :</h6>
+                    </div>
+                    <div class="col-9">
+                        <input type="text">
+                    </div>
+                </div><div class="row">
+                    <div class="col-3">
+                        <h6>Email :</h6>
+                    </div>
+                    <div class="col-9">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <h6>Note :</h6>
+                    </div>
+                    <div class="col-9">
+                        <input type="text">
+                    </div>
+                </div>
+               
+                <button>Submit</button>
+            </div>
+        </form>
+    </main>
     
+    <!-- footer -->
+    <footer>
+        
+    </footer>
 </body>
 </html>
+
+
+<!-- Files
+    3 html Files
+    3 css - reusable (navbar, footer, main)
+        each file with 2 levels, base level and media query small level
+    3 css - specific (about me, index, contact)
+        each file with 2 levels, base level and media query small level -->
