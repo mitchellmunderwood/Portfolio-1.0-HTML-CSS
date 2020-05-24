@@ -7,3 +7,12 @@ html {
 body {
     background: fefefe;
 }
+
+main {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    height: calc(100% - 56px);
+    /* background: red; */
+    padding: 30px;
+}
