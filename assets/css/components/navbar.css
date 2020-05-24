@@ -1,17 +1,46 @@
-nav {
-    background: #2c549c;
+.navbar {
+    background: #3b70d3;
+    position: fixed;
+    width: 100%;
 }
 
-.navbar_content a {
+.navbar-brand {
+    color: white;
+   
+}
+
+.navbar-brand:hover {
     color: white;
 }
 
-.navbar-link:hover  {
-    color: #c5c5c5;
-    text-decoration: none;
+.nav-link {
+    color: white;
+    
 }
 
-.navbar-link {
-    padding-left: 5px;
-    padding-right: 5px;
+.nav-link:hover {
+    color: #c4c4c4;
 }
+
+
+
+@media only screen and (max-width: 680px) {
+    .navbar {
+        flex-direction: column;
+        padding: 8px 0 0 0px;
+    }
+
+    .navbar-brand {
+        padding-left: 24px;
+        width: 100%;
+        /* text-align: center; */
+        
+    }
+    
+    .navbar-nav {
+        padding-left: 8px;
+        width: 100%;
+        background: black;
+    }
+}
+
