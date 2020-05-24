@@ -1,5 +1,6 @@
 .navbar {
     background: #3b70d3;
+    /* background: black; */
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -41,7 +42,7 @@
     .navbar-nav {
         padding-left: 8px;
         width: 100%;
-        background: black;
+        background: grey;
     }
 }
 
