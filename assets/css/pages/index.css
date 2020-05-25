@@ -1,6 +1,6 @@
 .card {
     max-width: 768px;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
     
 }
 
@@ -9,10 +9,15 @@
 }
 
 .about {
-    max-width: 576px;
+    max-width: 500px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#inner_card {
+    border: none; 
+    padding-right: 5px;
 }
 
 .about_img {
@@ -20,12 +25,7 @@
     border-radius: 5px;
     width: 100%;
     max-height: 400px;
-  
-    /* display: inline; */
-    
 }
 
-.card p {
-    display: inline;
-}
+
 
