@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/components/navbar.css">
     <link rel="stylesheet" href="./assets/css/components/footer.css">
     <link rel="stylesheet" href="./assets/css/components/main.css">
@@ -15,30 +13,44 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand" href="#">Mitchell Underwood</a>
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link" href="#">Contact</a>         
-        </div>
-    </nav>
+       
+        <div class=" navbar-collapse" id="collapsibleNavbar">
+          <div class="navbar-nav">
+              <div>
+              <a href="#">About</a>  
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a> 
+              <div>
+          </div>
+        </div>  
+      </nav>
 
     <!-- main -->
     <main>
-        <!-- <div class="card" >
-            <h5 class="card-header">Mitchell Underwood</h5>
-            <div class="card-body">
-                <img class="card-img" src="./assets/images/Mitchell_2.jpeg" alt="">
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aliquid soluta vel ipsam dignissimos ea praesentium delectus fuga labore dicta sit pariatur veniam dolorum optio, sed expedita autem numquam? Perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eos nisi deserunt praesentium vero? Consequatur cumque aspernatur quam harum ex eveniet, explicabo atque voluptatum non culpa, itaque repellat quibusdam laborum.</p>
+        <div class="card">
+            <h2 class="font-weight-bold text-center">About Me</h2>
+            <div class="card" style="border:none;">
+                <div>
+                    <div class="about">
+                        <img class="about_img" src="./assets/images/Mitchell_2.jpeg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio molestias error, sit, rerum consectetur aliquam reprehenderit quae dolor veritatis quo tempora possimus rem ea quas neque autem est accusantium debitis.</p>
+                </div>
             </div>
-        </div> -->
+            
+        </div>
     </main>
     <!-- footer -->
-    <footer>
-        <p>
-            &copy; Mitchell Underwood Web Design
-        </p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    &copy; Underwood Design
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
