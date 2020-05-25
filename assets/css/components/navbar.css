@@ -1,48 +1,13 @@
 .navbar {
-    background: #3b70d3;
-    /* background: black; */
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+    background: blue;
 }
 
-.navbar-brand {
+.navbar a {
     color: white;
-   
+    padding: 0 10px;
 }
 
-.navbar-brand:hover {
-    color: white;
+.navbar a:hover {
+    color: #a4a4a4;
+    text-decoration: none;
 }
-
-.nav-link {
-    color: white;
-    
-}
-
-.nav-link:hover {
-    color: #c4c4c4;
-}
-
-
-
-@media only screen and (max-width: 680px) {
-    .navbar {
-        flex-direction: column;
-        padding: 8px 0 0 0px;
-    }
-
-    .navbar-brand {
-        padding-left: 24px;
-        width: 100%;
-        /* text-align: center; */
-        
-    }
-    
-    .navbar-nav {
-        padding-left: 8px;
-        width: 100%;
-        background: grey;
-    }
-}
-
