@@ -14,13 +14,13 @@
 
 ## Images
 
-![Screen Shot 2020-05-26 at 4.57.03 PM](./assets/readme/Screen Shot 2020-05-26 at 4.57.03 PM.png)
+![Screen Shot 2020-05-26 at 4.57.03 PM](./assets/readme/1.png)
 
 
 
-![Screen Shot 2020-05-26 at 4.56.29 PM](./assets/readme/Screen Shot 2020-05-26 at 4.56.29 PM.png)
+![Screen Shot 2020-05-26 at 4.56.29 PM](./assets/readme/2.png)
 
 
 
-![Screen Shot 2020-05-26 at 4.56.39 PM](./assets/readme/Screen Shot 2020-05-26 at 4.56.39 PM.png)
+![Screen Shot 2020-05-26 at 4.56.39 PM](./assets/readme/3.png)
 
