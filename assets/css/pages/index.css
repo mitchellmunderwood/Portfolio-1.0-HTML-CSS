@@ -60,7 +60,8 @@ main {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 5px;
   }
 
 .fa:hover {
@@ -74,6 +75,11 @@ main {
 
 .fa-linkedin {
     background: #007bb5;
+    color: white;
+}
+
+.fa-file-text {
+    background: #00b539;
     color: white;
 }
 
