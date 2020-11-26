@@ -1,26 +1,147 @@
-# Responsive Portfolio
+<h1 align="center">
+  <br>
+  <!-- image/logo link -->
+  <a href="https://mitchellmunderwood.github.io/Portfolio-1.0-HTML-CSS/"><img src="./README-support/logo.png" alt="title" width="200" height="200" ></a>
+  
+  Portfolio-1.0-HTML-CSS
+  <br>
+</h1>
 
-## Description
+<h4 align="center">
+<!-- Description of Project -->
+A simple portfolio website, built with bootstrap.
+</h4>
 
-> This simple, personal website is a good way to deploy a website to host professional information and projects for the enthusiastic, job-seeking programmer. Built to be responsive to multiply screen sizes, this site will look great on laptops, tablets, and smart phones. Out of the box, the site only has front-end capabilities, and is static as of right now. The site is composed of an "About Me", "Contact", and "Portfolio" pages. 
+<p align="center">
+    <!-- table of contents -->
+  <a href="#live">Live</a> •
+  <a href="#gallery">Gallery</a> •
+  <a href="#description">Description</a> •
+  <a href="#license">License</a> •
+  <a href="#stack">Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#testing">Testing</a> •
+  <a href="#questions">Questions</a> •
+  <a href="#contributing">Contributing</a> 
+</p>
 
-## Deployment
+<br>
 
-> This site can be deployed by using Github pages. I have not tried to host it using another hosting service.
+<p>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Features
+</p>
 
-> The site is built using simple HTML, CSS, and Bootstrap 4. Bootstrap's responsive grid allows the content to scale and reorganize to fit a range of screen sizes out of the box. Personally constructed css files can be used to further customize the default styling features. 
+### Live
 
-## Images
+Portfolio 1.0 is currently deployed with Github. <a href="https://mitchellmunderwood.github.io/Portfolio-1.0-HTML-CSS/">Go to Live</a>.
+<br/>
 
-![Screen Shot 2020-05-26 at 4.57.03 PM](./assets/readme/1.png)
+### Gallery
 
+<p align="center">
+    <img src="./README-support/img1.png" width="auto" height="auto">
+</p>
+<p align="center">
+    <img src="./README-support/img2.png" width="auto" height="auto">
+</p>
+<p align="center">
+    <img src="./README-support/img3.png" width="auto" height="auto">
+</p>
 
+<br/>
 
-![Screen Shot 2020-05-26 at 4.56.29 PM](./assets/readme/2.png)
+### Description
 
+This simple, personal website is a good way to deploy a website to host professional information and projects for the enthusiastic, job-seeking programmer. Built to be responsive to multiply screen sizes, this site will look great on laptops, tablets, and smart phones. Out of the box, the site only has front-end capabilities, and is static as of right now. The site is composed of an "About Me", "Contact", and "Portfolio" pages.
 
+<br/>
 
-![Screen Shot 2020-05-26 at 4.56.39 PM](./assets/readme/3.png)
+### License
 
+<p>
+<img src="https://img.shields.io/badge/License-MIT-informational?style=flat&logo=mit&logoColor=white&color=blue"
+         alt="MIT License">
+</p>
+
+Project Title is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
+
+<br/>
+
+### Stack
+
+<p align="left">
+<!-- line for badges -->
+    <img src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=blue"
+         alt="HTML5">
+    <img src="https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=css3&logoColor=white&color=blue"
+         alt="CSS3">
+    <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=blue"
+         alt="JavaSript">
+    <img src="https://img.shields.io/badge/Code-Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=blue"
+         alt="JavaSript">
+    <!-- <img src="https://img.shields.io/badge/Code-Handlebars-informational?style=flat&logo=handlebars&logoColor=white&color=blue"
+         alt="Express"> -->
+    <!-- <img src="https://img.shields.io/badge/Code-Express-informational?style=flat&logo=express&logoColor=white&color=blue"
+         alt="Express"> -->
+    <!-- <img src="https://img.shields.io/badge/Code-Node-informational?style=flat&logo=node&logoColor=white&color=blue"
+         alt="Node"> -->
+    <!-- <img src="https://img.shields.io/badge/Data-mySQL-informational?style=flat&logo=mysql&logoColor=white&color=blue"
+         alt="Node"> -->
+</p>
+
+<!-- Open Source Tools:
+
+- [Thing](https://thing.com) -->
+
+<br/>
+
+### Installation
+
+Clone the repo.
+
+<br/>
+
+### Usage
+
+Open the html file in the browser.
+
+<br/>
+
+### Questions
+
+For additional questions, email Mitchell Underwood at **mitchellmunderwood@gmail.com**.
+
+<br/>
+
+### Contributing
+
+Want to contribute? Great!
+To fix a bug or enhance an existing feature, follow these steps:
+
+- Fork the repo
+- Create a new branch `git checkout -b improve-feature`
+- Make the appropriate changes in the files
+- Commit your changes `git commit -am 'Improve feature'`
+- Push to the branch `git push origin improve-feature`
+- Create a Pull Request
+
+<br/>
+
+### Contributors
+
+<p align="center">
+<img src="./README-support/mitchell.jpg" width="150" height="150" />
+<br/>
+Mitchell Underwood
+<br/>
+<a href="https://github.com/mitchellmunderwood">Github</a> •
+<a href="https://www.linkedin.com/in/mitchellmunderwood/">LinkedIn</a> •
+<a href="https://whoismitchell.com">Porfolio</a>
+
+</p>
